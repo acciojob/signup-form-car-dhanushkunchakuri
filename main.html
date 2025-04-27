@@ -12,10 +12,10 @@
 </script>
 	<form method="post">
 		<label for="name">Name</label>
-		<input id="name" required="Yes" type="text" placeholder="Name">
+		<input id="name"  type="text" placeholder="Name" required>
 		<br><br>
 		<label for="email">Email</label>
-		<input id="email" required="Yes" type="email" placeholder="Email">
+		<input id="email"  type="email" placeholder="Email" required>
 		<br><br>
 		<label>Gender</label>
 	    <input type="radio" id="gender_m" name="gender" value="Male" required>
@@ -24,27 +24,28 @@
 	    <input type="radio" id="gender_f" name="gender" value="Female" required>
 	    <label for="gender_f">Female</label>
 		<br><br>
-		<lable for="cars">Car Brands</lable>
-		<select required="Yes" id="cars" placesholder="--Please choose an option--">
+		<label for="cars">Car Brands</label>
+		<select  id="cars" required>
+			<option value="">--Please choose an option--</option>
 			<option>BMW</option>
 			<option>Benz</option>
 			<option>Ferarri</option>
 		</select>
 		<br><br>
 		<label for="age">Age</label>
-		<input id="age" required="yes" type="number" placeholder="Age">
+		<input id="age"  type="number" placeholder="Age" required>
 		<br><br>
 		<label for="dob">DOB</label>
-		<input id="dob" type="date" required="yes">
+		<input id="dob" type="date" required>
 		<br><br>
 		<label for="tel">Phone Number</label>
-		<input id="tel" required="no" type="tel" placeholder="xxx-xxx-xxxx">
+		<input id="tel" type="tel" placeholder="xxx-xxx-xxxx">
 		<br><br>
 		<label for="password">Password</label>
-		<input id="password" required="yes" type="password" placeholder="Password">
+		<input id="password"  type="password" placeholder="Password" required>
 		<br><br>
 		<label for="tos">I agree to the TOS</label>
-		<input id="tos" type="checkbox" required="yes">
+		<input id="tos" type="checkbox" required>
 		<br><br>
 		<button type="submit">Submit</button>
 
